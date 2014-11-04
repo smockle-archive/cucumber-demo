@@ -10,7 +10,7 @@ When /I specify n=(.*)/ do |n|
 end
 
 Then /the calculator should return (\d+)/ do |n|
-  @fib.value? == (n.to_i)
+  assert @fib.value? == (n.to_i)
 end
 
 Then /the calculator should return an error/ do

@@ -1,5 +1,5 @@
 Feature: Fibonacci calculator
-  In order to prove my smartness,
+  In order to rock this presentation,
   As a student in QA,
   I want to get the nth value in the Fibonacci sequence.
 
